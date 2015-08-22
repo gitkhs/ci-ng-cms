@@ -1,0 +1,32 @@
+#content .side-menu li {
+    padding:8px;
+}
+#content .side-menu li a {
+    text-decoration: none;
+}
+#content .side-menu li a.text-danger {
+    font-weight: bold;
+}
+#content .main-board {
+    background-color:#f1f3f6;
+}
+#content .page-body {
+    margin-top:20px;
+}
+
+@media (max-width: 768px) {
+    #content {
+        padding-top:1px;
+        background-color:#f1f3f6;
+    }
+
+    #content .page-menu.list-inline {
+        margin:0;
+    }
+    #content .page-menu.list-inline a {
+        text-decoration: none;
+    }
+    #content .main-board {
+        background-color:#f1f3f6;
+    }
+}

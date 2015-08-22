@@ -1,0 +1,26 @@
+#content .side-menu li {
+    padding:8px;
+}
+#content .side-menu li a {
+    text-decoration: none;
+}
+#content .side-menu li a.text-danger {
+    font-weight: bold;
+}
+#content .main-board {
+    background-color:#f1f3f6;
+}
+
+@media (max-width: 768px) {
+    #content {
+        padding:3%;
+        background-color:#f1f3f6;
+    }
+
+    #content .page-menu.list-inline {
+        margin:0;
+    }
+    #content .page-menu.list-inline a {
+        text-decoration: none;
+    }
+}
